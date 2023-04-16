@@ -2,14 +2,11 @@ import requests
 from transformers import pipeline
 from newsapi import NewsApiClient
 import tweepy
-import re
-import numpy as np
 
 
 class Connection(object):
 
     def __init__(self):
-
         pass
 
     def twitter_conn(self):

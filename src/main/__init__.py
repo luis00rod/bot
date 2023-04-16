@@ -1,7 +1,7 @@
 from common.connection import Connection
 from interactor.sentiment_analysis import SentimentAnalysis
 from pipeline.first_round import FirstRound
-from conf.config import Params
+from conf.params import Params
 
 
 class Controller(object):
